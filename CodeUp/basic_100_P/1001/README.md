@@ -5,6 +5,7 @@
 
 #### Hello
 
+###### \<c\>
 ```c
 #include <stdio.h>
 
@@ -16,6 +17,7 @@ int main() {
 }
 ```
 
+###### \<c++\>
 ```c++
 #include <iostream>
 using namespace std;
