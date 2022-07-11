@@ -410,3 +410,450 @@ public class Main {
 	
 }
 ```
+
+1026
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.nextLine();
+		String[] arr = str.split(":");
+		
+		System.out.printf("%d", Integer.parseInt(arr[1]));
+		
+	}
+	
+}
+```
+
+1027
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.nextLine();
+		String[] arr = str.split("\\.");
+		
+		System.out.printf("%s-%s-%s", arr[2], arr[1], arr[0]);
+		
+	}
+	
+}
+```
+
+1028
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long num = sc.nextLong();
+		
+		System.out.printf("%d", num);		
+	}
+	
+}
+```
+
+1029
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		double num = sc.nextDouble();
+		
+		System.out.printf("%.11f", num);		
+	}
+	
+}
+```
+
+1030
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String num = sc.nextLine();
+		
+		System.out.printf("%s", num);		
+	}
+	
+}
+```
+
+1031
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+		System.out.printf("%o", num);		
+	}
+	
+}
+```
+
+1032
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+		System.out.printf("%x", num);		
+	}
+	
+}
+```
+
+1033
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+		System.out.printf("%X", num);		
+	}
+	
+}
+```
+
+1034
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String num = sc.next();
+		int result = Integer.parseInt(num, 8);
+		
+		System.out.printf("%d", result);		
+	}
+	
+}
+```
+
+1035
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		String num = sc.next();
+		int result = Integer.parseInt(num, 16);
+		
+		System.out.printf("%o", result);		
+	}
+	
+}
+```
+
+1036
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		char num = sc.next().charAt(0);
+		
+		System.out.printf("%d", (int)num);		
+	}
+	
+}
+```
+
+1037
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		
+		System.out.printf("%c", (char)num);		
+	}
+	
+}
+```
+
+1038
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		
+		System.out.printf("%d", a + b);		
+	}
+	
+}
+```
+
+1039
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		
+		System.out.printf("%d", a + b);		
+	}
+	
+}
+```
+
+1040
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		
+		System.out.printf("%d", -a);		
+	}
+	
+}
+```
+
+1041
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		char a = sc.next().charAt(0);
+		
+		System.out.printf("%c", a + 1);		
+	}
+	
+}
+```
+
+1042
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		System.out.printf("%d", a / b);		
+	}
+	
+}
+```
+
+1043
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		
+		System.out.printf("%d", a % b);		
+	}
+	
+}
+```
+
+1044
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		
+		System.out.printf("%d", a + 1);		
+	}
+	
+}
+```
+
+1045
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		
+		System.out.printf("%d\n", a + b);
+		System.out.printf("%d\n", a - b);
+		System.out.printf("%d\n", a * b);
+		System.out.printf("%d\n", a / b);
+		System.out.printf("%d\n", a % b);
+		System.out.printf("%.2f\n", (float)a / (float)b);
+	}
+	
+}
+```
+
+1046
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		long c = sc.nextLong();
+		
+		System.out.printf("%d\n", a + b + c);
+		System.out.printf("%.1f", (float)(a+b+c) / 3.0);
+	
+	}
+}
+```
+
+1047
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		
+		System.out.printf("%d\n", a<<1);
+	
+	}
+}
+```
+
+1048
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		
+		System.out.printf("%d\n", a * (1 << b));
+	
+	}
+}
+```
+
+1049
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		
+		System.out.printf("%d\n", a > b ? 1 : 0);
+	
+	}
+}
+```
+
+1050
+```java
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		long a = sc.nextLong();
+		long b = sc.nextLong();
+		
+		System.out.printf("%d\n", a == b ? 1 : 0);
+	
+	}
+}
+```
