@@ -27,14 +27,14 @@ using namespace std;
 int main() {
 
     int n, m, b;
-    int ground[500][500];
+    int* ground;
 
     cin >> n >> m >> b;
     
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cin >> ground[i][j];
-        }
+    ground = new int[n * m];
+
+    for (int i = 0; i < n * m; i++) {
+        cin >> ground[i];
     }
 
     int mostTime = 256 * 500 * 500 * 2;
@@ -45,14 +45,12 @@ int main() {
         int f_cnt = 0;
         int r_cnt = 0;
 
-        for (int j = 0; j < n; j++) {
-            for (int k = 0; k < m; k++) {
-                if (ground[j][k] > i) {
-                    r_cnt += (ground[j][k] - i);
-                }
-                else if (ground[j][k] < i) {
-                    f_cnt += (i - ground[j][k]);
-                }
+        for (int j = 0; j < n * m; j++) {
+            if (ground[j] > i) {
+                r_cnt += (ground[j] - i);
+            }
+            else if (ground[j] < i) {
+                f_cnt += (i - ground[j]);
             }
         }
         if (r_cnt + b >= f_cnt) {
